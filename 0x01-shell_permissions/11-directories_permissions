@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a+rwx -d
+chmod 777 -d
