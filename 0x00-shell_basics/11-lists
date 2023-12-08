@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alX . ls -alX .. ls -alX /boot
+ls -alUX . .. /boot
