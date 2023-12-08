@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -alUXI . .. /boot
+ls -Ual -X . .. /boot
