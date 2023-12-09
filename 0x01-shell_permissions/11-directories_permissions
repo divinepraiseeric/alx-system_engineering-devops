@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ls -ad ./ | xargs -i chmod a+x
+sudo {(chmod -d a+x ./*),(chmod a+x ./*)}
