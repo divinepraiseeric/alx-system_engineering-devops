@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d ./ | xargs -i chmod ugo+x
+sudo ls -ad ./ | xargs -i chmod ugo+x
