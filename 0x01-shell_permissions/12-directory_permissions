@@ -1,0 +1,2 @@
+#!/bin/bash
+mkdir --mode=026 my_dir
