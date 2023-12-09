@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+x {ls -Ad}
+ls -d ./ | xargs -i chmod ugo+x
