@@ -1,2 +1,2 @@
 #!/bin/bash
-rm {ls -mr "*.js"}
+rm {ls -Rm "*.js"}
