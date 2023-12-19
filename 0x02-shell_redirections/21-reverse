@@ -1,2 +1,3 @@
 #!/bin/bash
-rev 0
+readarray -t lines
+printf '%s\\n' \"\${lines[@]}\" | tac
