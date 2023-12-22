@@ -1,2 +1,2 @@
 #!/bin/bash
-paste-- | cat -f1
+tac -i -2 | tac

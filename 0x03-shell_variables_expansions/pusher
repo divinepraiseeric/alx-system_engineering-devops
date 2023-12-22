@@ -1,6 +1,19 @@
 #!/bin/bash
-echo "commit message: "
-read message
+
+# THIS WAS LONGER,
+# it would first read in a vaariable called message using the read command, before executing completely
+# echo "commit message: "
+# read message
+# git add .
+# git commit - "$message"
+# git push
+
+# THIS IS WAY SHORTER
+# setting a positional parameter called message
+# so i just get to type in an argument after calling pusher
+# the first argument is read into the firt positional parameter $1
+# the first positional para is fed into the variable message and case closed
+message="$1"
 git add .
-git commit -m "$message"
+git commit -m "$1"
 git push
