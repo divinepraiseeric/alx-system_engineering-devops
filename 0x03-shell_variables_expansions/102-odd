@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | grep ^{1.."$(wc-l)"..2} | ls -x
+cat -n | grep ^{1.."$(wc-l)"..2}
